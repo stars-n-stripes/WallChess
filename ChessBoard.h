@@ -1,12 +1,16 @@
 //
 // Created by ace09 on 1/3/2021.
 //
-
+#pragma once
 #ifndef WALLCHESS___CHESSBOARD_H
 #define WALLCHESS___CHESSBOARD_H
 
 
 #include "ChessPiece.h"
+#include <vector>
+#include <memory>
+#include "Square.h"
+
 namespace Chess {
     class ChessBoard {
 // Note for later: when interacting with the lichess API, we will need to have move output be in UCI

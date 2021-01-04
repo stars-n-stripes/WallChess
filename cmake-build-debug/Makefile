@@ -204,33 +204,6 @@ King.cpp.s:
 	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/King.cpp.s
 .PHONY : King.cpp.s
 
-MoveStrategy.o: MoveStrategy.cpp.o
-
-.PHONY : MoveStrategy.o
-
-# target to build an object file
-MoveStrategy.cpp.o:
-	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/MoveStrategy.cpp.o
-.PHONY : MoveStrategy.cpp.o
-
-MoveStrategy.i: MoveStrategy.cpp.i
-
-.PHONY : MoveStrategy.i
-
-# target to preprocess a source file
-MoveStrategy.cpp.i:
-	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/MoveStrategy.cpp.i
-.PHONY : MoveStrategy.cpp.i
-
-MoveStrategy.s: MoveStrategy.cpp.s
-
-.PHONY : MoveStrategy.s
-
-# target to generate assembly for a file
-MoveStrategy.cpp.s:
-	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/MoveStrategy.cpp.s
-.PHONY : MoveStrategy.cpp.s
-
 Rook.o: Rook.cpp.o
 
 .PHONY : Rook.o
@@ -330,9 +303,6 @@ help:
 	@echo "... King.o"
 	@echo "... King.i"
 	@echo "... King.s"
-	@echo "... MoveStrategy.o"
-	@echo "... MoveStrategy.i"
-	@echo "... MoveStrategy.s"
 	@echo "... Rook.o"
 	@echo "... Rook.i"
 	@echo "... Rook.s"

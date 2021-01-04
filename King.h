@@ -1,7 +1,7 @@
 //
 // Created by ace09 on 1/3/2021.
 //
-
+#pragma once
 #ifndef WALLCHESS___KING_H
 #define WALLCHESS___KING_H
 

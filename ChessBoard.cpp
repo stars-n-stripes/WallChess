@@ -1,7 +1,7 @@
 //
 // Created by ace09 on 1/3/2021.
 //
-
+#pragma once
 #include <vector>
 #include "ChessBoard.h"
 #include "Square.h"

@@ -100,12 +100,6 @@
 		<Unit filename="/mnt/c/repos/WallChess/King.h">
 			<Option target="wallChess__"/>
 		</Unit>
-		<Unit filename="/mnt/c/repos/WallChess/MoveStrategy.cpp">
-			<Option target="wallChess__"/>
-		</Unit>
-		<Unit filename="/mnt/c/repos/WallChess/MoveStrategy.h">
-			<Option target="wallChess__"/>
-		</Unit>
 		<Unit filename="/mnt/c/repos/WallChess/Rook.cpp">
 			<Option target="wallChess__"/>
 		</Unit>

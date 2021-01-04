@@ -1,27 +1,31 @@
 //
 // Created by ace09 on 1/3/2021.
 //
-
+#pragma once
 #ifndef WALLCHESS___CHESSPIECE_H
 #define WALLCHESS___CHESSPIECE_H
 
 #include "ChessBoard.h"
 #include "Square.h"
 #include <memory>
+#include <set>
 
-enum  CHESSCOLOR  {WHITE, BLACK};
-enum CHESSPIECE_STATUS {LIVE, CAPTURED};
+
 
 namespace Chess {
+    enum class CHESSCOLOR  {WHITE, BLACK};
+    enum class CHESSPIECE_STATUS {LIVE, CAPTURED};
     class ChessPiece {
     private:
         CHESSCOLOR color;
         std::shared_ptr<ChessBoard> board;
         std::shared_ptr<Square> location;
+        bool HasMoved;
     protected:
         ChessPiece(CHESSCOLOR color, std::shared_ptr<ChessBoard> board) {
             this->color = color;
             this->board = std::move(board);
+            this->HasMoved = false;
 
         }
         // TODO: Restrict copy/assign
@@ -31,7 +35,7 @@ namespace Chess {
 
 
     public:
-        std::unique_ptr<ChessPiece> New() = 0;
+        virtual std::unique_ptr<ChessPiece> New() = 0;
 
         virtual ~ChessPiece() = default;
 
@@ -49,7 +53,7 @@ namespace Chess {
         virtual bool MakeMove(std::shared_ptr<Square> dest) = 0;
 
         void SetMoved() { this->HasMoved = true; };
-        std::shared_ptr<Square> GetLocation(){ return this.location }
+        std::shared_ptr<Square> GetLocation(){ return this->location; };
         virtual std::set<std::shared_ptr<Square>> GetPossibleMoves() = 0;
     };
 } // namespace Chess

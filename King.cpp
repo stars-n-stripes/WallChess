@@ -1,7 +1,7 @@
 //
 // Created by ace09 on 1/3/2021.
 //
-
+#pragma once
 #include "King.h"
 #include "Rook.h"
 #include <memory>
@@ -123,5 +123,9 @@ namespace Chess {
 
     bool King::MakeMove(std::shared_ptr<Square> dest) {
         return false;
+    }
+
+    bool King::GetHasMoved() {
+        return this->HasMoved;
     }
 }

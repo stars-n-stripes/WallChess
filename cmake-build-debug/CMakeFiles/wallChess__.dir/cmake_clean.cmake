@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/wallChess__.dir/ChessBoard.cpp.o"
   "CMakeFiles/wallChess__.dir/ChessPiece.cpp.o"
   "CMakeFiles/wallChess__.dir/King.cpp.o"
-  "CMakeFiles/wallChess__.dir/MoveStrategy.cpp.o"
   "CMakeFiles/wallChess__.dir/Rook.cpp.o"
   "CMakeFiles/wallChess__.dir/Square.cpp.o"
   "CMakeFiles/wallChess__.dir/main.cpp.o"

@@ -3,6 +3,8 @@
 
 CMakeFiles/wallChess__.dir/ChessBoard.cpp.o: ../ChessBoard.cpp
 CMakeFiles/wallChess__.dir/ChessBoard.cpp.o: ../ChessBoard.h
+CMakeFiles/wallChess__.dir/ChessBoard.cpp.o: ../ChessPiece.h
+CMakeFiles/wallChess__.dir/ChessBoard.cpp.o: ../Square.h
 
 CMakeFiles/wallChess__.dir/ChessPiece.cpp.o: ../ChessBoard.h
 CMakeFiles/wallChess__.dir/ChessPiece.cpp.o: ../ChessPiece.cpp
@@ -13,11 +15,17 @@ CMakeFiles/wallChess__.dir/King.cpp.o: ../ChessBoard.h
 CMakeFiles/wallChess__.dir/King.cpp.o: ../ChessPiece.h
 CMakeFiles/wallChess__.dir/King.cpp.o: ../King.cpp
 CMakeFiles/wallChess__.dir/King.cpp.o: ../King.h
+CMakeFiles/wallChess__.dir/King.cpp.o: ../Rook.h
 CMakeFiles/wallChess__.dir/King.cpp.o: ../Square.h
 
-CMakeFiles/wallChess__.dir/MoveStrategy.cpp.o: ../MoveStrategy.cpp
-CMakeFiles/wallChess__.dir/MoveStrategy.cpp.o: ../MoveStrategy.h
+CMakeFiles/wallChess__.dir/Rook.cpp.o: ../ChessBoard.h
+CMakeFiles/wallChess__.dir/Rook.cpp.o: ../ChessPiece.h
+CMakeFiles/wallChess__.dir/Rook.cpp.o: ../Rook.cpp
+CMakeFiles/wallChess__.dir/Rook.cpp.o: ../Rook.h
+CMakeFiles/wallChess__.dir/Rook.cpp.o: ../Square.h
 
+CMakeFiles/wallChess__.dir/Square.cpp.o: ../ChessBoard.h
+CMakeFiles/wallChess__.dir/Square.cpp.o: ../ChessPiece.h
 CMakeFiles/wallChess__.dir/Square.cpp.o: ../Square.cpp
 CMakeFiles/wallChess__.dir/Square.cpp.o: ../Square.h
 

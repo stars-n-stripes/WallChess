@@ -1,13 +1,14 @@
 //
 // Created by ace09 on 1/3/2021.
 //
-
+#pragma once
 #ifndef WALLCHESS___SQUARE_H
 #define WALLCHESS___SQUARE_H
 
 
 #include <utility>
 #include "ChessPiece.h"
+#include <memory>
 
 namespace Chess {
     class Square {
