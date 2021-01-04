@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# JetBrains stuff
+.idea/workspace.xml
+.idea/tasks.xml
