@@ -1,0 +1,41 @@
+//
+// Created by ace09 on 1/3/2021.
+//
+
+#ifndef WALLCHESS___CHESSPIECE_H
+#define WALLCHESS___CHESSPIECE_H
+
+#include "ChessBoard.h"
+#include "Square.h"
+#include <memory>
+
+enum  CHESSCOLOR  {WHITE, BLACK};
+enum CHESSPIECE_STATUS {LIVE, CAPTURED};
+
+class ChessPiece {
+private:
+    CHESSCOLOR color;
+    std::shared_ptr<ChessBoard> board;
+    ChessPiece(CHESSCOLOR color, std::shared_ptr<ChessBoard> board) {
+        this->color = color;
+        this->board = std::move(board);
+
+    }
+    // TODO: Restrict copy/assign
+
+//    std::unique_ptr<Square> location;
+//    std::shared_ptr<MoveStrategy> moveStrategy;
+
+
+public:
+//    ChessPiece New();
+    virtual ~ChessPiece() = default;
+    virtual bool Move(Square destination) = 0;
+    virtual bool isCaptured() = 0;
+    CHESSCOLOR getColor(){return this->color;};
+    virtual std::string toString() = 0;
+    virtual std::string shorthand() = 0;
+};
+
+
+#endif //WALLCHESS___CHESSPIECE_H
