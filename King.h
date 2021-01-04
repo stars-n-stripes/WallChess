@@ -48,5 +48,5 @@ namespace Chess {
         std::unique_ptr<King>
         New(CHESSCOLOR newcolor, std::shared_ptr<ChessBoard> &gameboard, std::shared_ptr<Square> &start);
     };
-} // namespace Chess
 #endif //WALLCHESS___KING_H
+} // namespace Chess

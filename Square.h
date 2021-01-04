@@ -22,11 +22,11 @@ namespace Chess {
 
         std::pair<int, int> GetCoords();
 
-        std::shared_ptr<ChessPiece> GetPiece();
+        std::shared_ptr<Chess::ChessPiece> GetPiece();
 
         int DistanceBetween(std::shared_ptr<Square> s);
 
     };
-}
 
 #endif //WALLCHESS___SQUARE_H
+}

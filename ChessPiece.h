@@ -56,6 +56,6 @@ namespace Chess {
         std::shared_ptr<Square> GetLocation(){ return this->location; };
         virtual std::set<std::shared_ptr<Square>> GetPossibleMoves() = 0;
     };
-} // namespace Chess
 
 #endif //WALLCHESS___CHESSPIECE_H
+} // namespace Chess

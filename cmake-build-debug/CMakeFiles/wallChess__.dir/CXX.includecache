@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/mnt/c/repos/WallChess/ChessBoard.cpp
+vector
+-
+ChessBoard.h
+/mnt/c/repos/WallChess/ChessBoard.h
+Square.h
+/mnt/c/repos/WallChess/Square.h
+
 /mnt/c/repos/WallChess/ChessBoard.h
 ChessPiece.h
 /mnt/c/repos/WallChess/ChessPiece.h
@@ -16,6 +24,10 @@ memory
 Square.h
 /mnt/c/repos/WallChess/Square.h
 
+/mnt/c/repos/WallChess/ChessPiece.cpp
+ChessPiece.h
+/mnt/c/repos/WallChess/ChessPiece.h
+
 /mnt/c/repos/WallChess/ChessPiece.h
 ChessBoard.h
 /mnt/c/repos/WallChess/ChessBoard.h
@@ -25,6 +37,44 @@ memory
 -
 set
 -
+
+/mnt/c/repos/WallChess/King.cpp
+King.h
+/mnt/c/repos/WallChess/King.h
+Rook.h
+/mnt/c/repos/WallChess/Rook.h
+memory
+-
+iostream
+-
+utility
+-
+vector
+-
+set
+-
+algorithm
+-
+Square.h
+/mnt/c/repos/WallChess/Square.h
+
+/mnt/c/repos/WallChess/King.h
+vector
+-
+set
+-
+ChessPiece.h
+/mnt/c/repos/WallChess/ChessPiece.h
+Square.h
+/mnt/c/repos/WallChess/Square.h
+
+/mnt/c/repos/WallChess/Rook.cpp
+Rook.h
+/mnt/c/repos/WallChess/Rook.h
+
+/mnt/c/repos/WallChess/Rook.h
+ChessPiece.h
+/mnt/c/repos/WallChess/ChessPiece.h
 
 /mnt/c/repos/WallChess/Square.cpp
 Square.h

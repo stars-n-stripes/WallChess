@@ -23,6 +23,6 @@ namespace Chess {
         // Get a particular square
         static std::shared_ptr<Square> GetSquare(int x, int y);
     };
-}
 
 #endif //WALLCHESS___CHESSBOARD_H
+}
