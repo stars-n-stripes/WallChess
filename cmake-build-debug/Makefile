@@ -231,6 +231,33 @@ MoveStrategy.cpp.s:
 	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/MoveStrategy.cpp.s
 .PHONY : MoveStrategy.cpp.s
 
+Rook.o: Rook.cpp.o
+
+.PHONY : Rook.o
+
+# target to build an object file
+Rook.cpp.o:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/Rook.cpp.o
+.PHONY : Rook.cpp.o
+
+Rook.i: Rook.cpp.i
+
+.PHONY : Rook.i
+
+# target to preprocess a source file
+Rook.cpp.i:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/Rook.cpp.i
+.PHONY : Rook.cpp.i
+
+Rook.s: Rook.cpp.s
+
+.PHONY : Rook.s
+
+# target to generate assembly for a file
+Rook.cpp.s:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/Rook.cpp.s
+.PHONY : Rook.cpp.s
+
 Square.o: Square.cpp.o
 
 .PHONY : Square.o
@@ -306,6 +333,9 @@ help:
 	@echo "... MoveStrategy.o"
 	@echo "... MoveStrategy.i"
 	@echo "... MoveStrategy.s"
+	@echo "... Rook.o"
+	@echo "... Rook.i"
+	@echo "... Rook.s"
 	@echo "... Square.o"
 	@echo "... Square.i"
 	@echo "... Square.s"

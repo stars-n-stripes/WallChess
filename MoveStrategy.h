@@ -7,6 +7,9 @@
 
 
 class MoveStrategy {
+public:
+    std::function<bool(Square dest)> CheckMove;
+    std::function<bool(Square dest)> MakeMove;
 
 };
 

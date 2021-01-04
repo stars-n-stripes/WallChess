@@ -3,4 +3,4 @@ project(wallChess__)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(wallChess__ main.cpp ChessPiece.cpp ChessPiece.h ChessBoard.cpp ChessBoard.h Square.cpp Square.h MoveStrategy.cpp MoveStrategy.h King.cpp King.h)
+add_executable(wallChess__ main.cpp ChessPiece.cpp ChessPiece.h ChessBoard.cpp ChessBoard.h Square.cpp Square.h MoveStrategy.cpp MoveStrategy.h King.cpp King.h Rook.cpp Rook.h Square.cpp Square.h)

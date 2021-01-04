@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/repos/WallChess/ChessPiece.cpp" "/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles/wallChess__.dir/ChessPiece.cpp.o"
   "/mnt/c/repos/WallChess/King.cpp" "/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles/wallChess__.dir/King.cpp.o"
   "/mnt/c/repos/WallChess/MoveStrategy.cpp" "/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles/wallChess__.dir/MoveStrategy.cpp.o"
+  "/mnt/c/repos/WallChess/Rook.cpp" "/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles/wallChess__.dir/Rook.cpp.o"
   "/mnt/c/repos/WallChess/Square.cpp" "/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles/wallChess__.dir/Square.cpp.o"
   "/mnt/c/repos/WallChess/main.cpp" "/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles/wallChess__.dir/main.cpp.o"
   )
