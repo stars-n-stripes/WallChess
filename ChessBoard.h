@@ -26,6 +26,10 @@ namespace Chess {
 
         // Get a particular square
         static std::shared_ptr<Square> GetSquare(int x, int y);
+
+        /// Shorthand for checking the current board state
+        /// \return
+        static CHESSCOLOR CheckCheck();
     };
 }
 #endif //WALLCHESS___CHESSBOARD_H

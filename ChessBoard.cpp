@@ -20,6 +20,9 @@ namespace Chess {
         return CHESSCOLOR::BLACK;
     }
 
+    CHESSCOLOR ChessBoard::CheckCheck() {
+        return CHESSCOLOR::BLACK;
+    }
 
 
 }

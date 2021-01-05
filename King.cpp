@@ -32,7 +32,7 @@ namespace Chess {
     bool King::CheckMove(std::shared_ptr<Square> dest) {
         // Check if the move would place the owning player in check
         // out-of-bounds is "handled" by an out-of-bounds square not existing
-        if (this->board->CheckCheck(this, dest) != this->color) { return false; };
+        if (this->board->CheckCheck(this, dest) == this->color) { return false; };
 
 //        // Acquire the distances between the King and the target square.
 //        int h_dist, v_dist;
@@ -68,15 +68,35 @@ namespace Chess {
 
         // Only need to check castle validity if the distance is 2
         if(dest->DistanceBetween(this->location) == 2){
+            // Check if king is currently in check.
+            if (this->board->CheckCheck() == this->color) { return false; };
             // C-column
             if(dest->GetColumn() == 2){
                 auto edge = this->board->GetSquare(0, this->location->GetRow());
                 auto cells_between = this->board->SquareRange(this->location, edge);
+                for(const std::shared_ptr<Square>& s : cells_between){
+                    // Check if any piece, friend or foe, is there
+                    if(s->GetPiece()){
+                        return false;
+                    }
+                    // call CheckCheck with the King in that position to see if the castle would be
+                    // "castling through check"
+                    if (this->board->CheckCheck(this, s) == this->color) { return false; };
+                }
             }
             // H-column
             else if (dest->GetColumn() == 6){
                 auto edge = this->board->GetSquare(7, this->location->GetRow());
                 auto cells_between = this->board->SquareRange(this->location, edge);
+                for(const std::shared_ptr<Square>& s : cells_between){
+                    // Check if any piece, friend or foe, is there
+                    if(s->GetPiece()){
+                        return false;
+                    }
+                    // call CheckCheck with the King in that position to see if the castle would be
+                    // "castling through check"
+                    if (this->board->CheckCheck(this, s) == this->color) { return false; };
+                }
             }
             }        // Move is valid
         return true;
