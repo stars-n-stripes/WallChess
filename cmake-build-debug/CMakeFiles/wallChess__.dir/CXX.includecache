@@ -11,18 +11,16 @@ vector
 -
 ChessBoard.h
 /mnt/c/repos/WallChess/ChessBoard.h
-Square.h
-/mnt/c/repos/WallChess/Square.h
 
 /mnt/c/repos/WallChess/ChessBoard.h
+Square.h
+/mnt/c/repos/WallChess/Square.h
 ChessPiece.h
 /mnt/c/repos/WallChess/ChessPiece.h
 vector
 -
 memory
 -
-Square.h
-/mnt/c/repos/WallChess/Square.h
 
 /mnt/c/repos/WallChess/ChessPiece.cpp
 ChessPiece.h
@@ -55,8 +53,6 @@ set
 -
 algorithm
 -
-Square.h
-/mnt/c/repos/WallChess/Square.h
 
 /mnt/c/repos/WallChess/King.h
 vector
@@ -65,12 +61,12 @@ set
 -
 ChessPiece.h
 /mnt/c/repos/WallChess/ChessPiece.h
-Square.h
-/mnt/c/repos/WallChess/Square.h
 
 /mnt/c/repos/WallChess/Rook.cpp
 Rook.h
 /mnt/c/repos/WallChess/Rook.h
+string
+-
 
 /mnt/c/repos/WallChess/Rook.h
 ChessPiece.h
@@ -81,10 +77,16 @@ Square.h
 /mnt/c/repos/WallChess/Square.h
 
 /mnt/c/repos/WallChess/Square.h
-utility
--
 ChessPiece.h
 /mnt/c/repos/WallChess/ChessPiece.h
+utility
+-
 memory
+-
+
+/mnt/c/repos/WallChess/main.cpp
+ChessBoard.h
+/mnt/c/repos/WallChess/ChessBoard.h
+iostream
 -
 

@@ -29,5 +29,8 @@ CMakeFiles/wallChess__.dir/Square.cpp.o: ../ChessPiece.h
 CMakeFiles/wallChess__.dir/Square.cpp.o: ../Square.cpp
 CMakeFiles/wallChess__.dir/Square.cpp.o: ../Square.h
 
+CMakeFiles/wallChess__.dir/main.cpp.o: ../ChessBoard.h
+CMakeFiles/wallChess__.dir/main.cpp.o: ../ChessPiece.h
+CMakeFiles/wallChess__.dir/main.cpp.o: ../Square.h
 CMakeFiles/wallChess__.dir/main.cpp.o: ../main.cpp
 

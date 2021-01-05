@@ -6,11 +6,15 @@
 #define WALLCHESS___SQUARE_H
 
 
-#include <utility>
 #include "ChessPiece.h"
+#include <utility>
+
+//#ifndef "CHESSPIECE_H"
+//#define "CHESSPIECE_H"
 #include <memory>
 
 namespace Chess {
+    class ChessPiece;
     class Square {
     private:
         int column;
@@ -22,7 +26,7 @@ namespace Chess {
 
         std::pair<int, int> GetCoords();
 
-        std::shared_ptr<Chess::ChessPiece> GetPiece();
+        std::shared_ptr<ChessPiece> GetPiece();
 
         int DistanceBetween(std::shared_ptr<Square> s);
 

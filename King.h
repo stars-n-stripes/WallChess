@@ -9,7 +9,6 @@
 #include <vector>
 #include <set>
 #include "ChessPiece.h"
-#include "Square.h"
 namespace Chess {
     class King : public ChessPiece {
 
@@ -26,7 +25,7 @@ namespace Chess {
     public:
         ~King() = default;
 
-        bool MakeMove(std::unique_ptr<Square> dest) override;
+        bool MakeMove(std::shared_ptr<Square> dest) override;
 
         bool isCaptured();
 
@@ -34,19 +33,20 @@ namespace Chess {
 
         std::string toString();
 
-        std::string shorthand();
+        std::string shorthand() override { return "K"; };
 
-        bool MakeMove(std::unique_ptr<Square> &dest) override;
 
         bool CheckMove(std::shared_ptr<Square> dest) override;
-        bool MakeMove(std::shared_ptr<Square> dest) override;
+
         bool GetHasMoved() override;
+
         std::set<std::shared_ptr<Square>> GetPossibleMoves() override;
 
         void OnCreate(std::shared_ptr<Square> start);
 
-        std::unique_ptr<King>
-        New(CHESSCOLOR newcolor, std::shared_ptr<ChessBoard> &gameboard, std::shared_ptr<Square> &start);
+        static std::unique_ptr<King>
+        New(CHESSCOLOR newcolor, std::shared_ptr<ChessBoard> gameboard, std::shared_ptr<Square> start);
     };
+}
 #endif //WALLCHESS___KING_H
-} // namespace Chess
+ // namespace Chess

@@ -10,13 +10,12 @@
 #include <vector>
 #include <set>
 #include <algorithm>
-#include "Square.h"
 
 namespace Chess {
     King::King(CHESSCOLOR color, std::shared_ptr<ChessBoard> board) : ChessPiece(color, std::move(board)) {};
 
     std::unique_ptr<King>
-    King::New(CHESSCOLOR newcolor, std::shared_ptr<ChessBoard>& gameboard, std::shared_ptr<Square>& start) {
+     King::New(CHESSCOLOR newcolor, std::shared_ptr<ChessBoard> gameboard, std::shared_ptr<Square> start) {
         auto instance = new King(newcolor, std::move(gameboard));
         instance->OnCreate(std::move(start));
 
@@ -104,15 +103,15 @@ namespace Chess {
         if(!this->HasMoved){
             // Use dynamic casts to cast ChessPiece to Rook
             // dc will return nullptr if that's not possible, namely, if the piece on that square is not a rook
-            std::shared_ptr<Rook> a_rook = dynamic_cast<std::shared_ptr<Rook>>(this->board->GetSquare(0, this->location->GetRow())->GetPiece());
-            std::shared_ptr<Rook> h_rook =  dynamic_cast<std::shared_ptr<Rook>>(this->board->GetSquare(7, this->location->GetRow()));
+            std::shared_ptr<ChessPiece> a_rook = this->board->GetSquare(0, this->location->GetRow())->GetPiece();
+            std::shared_ptr<ChessPiece> h_rook =this->board->GetSquare(7, this->location->GetRow())->GetPiece();
             // Verify that the pieces there are, in fact, Rooks, then see if they have moved.
-            if (a_rook != nullptr){
+            if (a_rook != nullptr && a_rook->shorthand() == "R"){
                 if(!a_rook->GetHasMoved()){
                    possible_moves.emplace(std::move(a_rook->GetLocation()));
                 }
             }
-            if (h_rook != nullptr){
+            if (h_rook != nullptr && a_rook->shorthand() == "R" ){
                 if(!h_rook->GetHasMoved()){
                     possible_moves.emplace(std::move(h_rook->GetLocation()));
                 }
