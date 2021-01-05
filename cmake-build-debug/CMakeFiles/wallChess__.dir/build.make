@@ -135,6 +135,45 @@ CMakeFiles/wallChess__.dir/Rook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wallChess__.dir/Rook.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/repos/WallChess/Rook.cpp -o CMakeFiles/wallChess__.dir/Rook.cpp.s
 
+CMakeFiles/wallChess__.dir/ConsoleClient.cpp.o: CMakeFiles/wallChess__.dir/flags.make
+CMakeFiles/wallChess__.dir/ConsoleClient.cpp.o: ../ConsoleClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/wallChess__.dir/ConsoleClient.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wallChess__.dir/ConsoleClient.cpp.o -c /mnt/c/repos/WallChess/ConsoleClient.cpp
+
+CMakeFiles/wallChess__.dir/ConsoleClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wallChess__.dir/ConsoleClient.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/repos/WallChess/ConsoleClient.cpp > CMakeFiles/wallChess__.dir/ConsoleClient.cpp.i
+
+CMakeFiles/wallChess__.dir/ConsoleClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wallChess__.dir/ConsoleClient.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/repos/WallChess/ConsoleClient.cpp -o CMakeFiles/wallChess__.dir/ConsoleClient.cpp.s
+
+CMakeFiles/wallChess__.dir/Client.cpp.o: CMakeFiles/wallChess__.dir/flags.make
+CMakeFiles/wallChess__.dir/Client.cpp.o: ../Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/wallChess__.dir/Client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wallChess__.dir/Client.cpp.o -c /mnt/c/repos/WallChess/Client.cpp
+
+CMakeFiles/wallChess__.dir/Client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wallChess__.dir/Client.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/repos/WallChess/Client.cpp > CMakeFiles/wallChess__.dir/Client.cpp.i
+
+CMakeFiles/wallChess__.dir/Client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wallChess__.dir/Client.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/repos/WallChess/Client.cpp -o CMakeFiles/wallChess__.dir/Client.cpp.s
+
+CMakeFiles/wallChess__.dir/Visualizer.cpp.o: CMakeFiles/wallChess__.dir/flags.make
+CMakeFiles/wallChess__.dir/Visualizer.cpp.o: ../Visualizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/wallChess__.dir/Visualizer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wallChess__.dir/Visualizer.cpp.o -c /mnt/c/repos/WallChess/Visualizer.cpp
+
+CMakeFiles/wallChess__.dir/Visualizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wallChess__.dir/Visualizer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/repos/WallChess/Visualizer.cpp > CMakeFiles/wallChess__.dir/Visualizer.cpp.i
+
+CMakeFiles/wallChess__.dir/Visualizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wallChess__.dir/Visualizer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/repos/WallChess/Visualizer.cpp -o CMakeFiles/wallChess__.dir/Visualizer.cpp.s
+
 # Object files for target wallChess__
 wallChess___OBJECTS = \
 "CMakeFiles/wallChess__.dir/main.cpp.o" \
@@ -142,7 +181,10 @@ wallChess___OBJECTS = \
 "CMakeFiles/wallChess__.dir/ChessBoard.cpp.o" \
 "CMakeFiles/wallChess__.dir/Square.cpp.o" \
 "CMakeFiles/wallChess__.dir/King.cpp.o" \
-"CMakeFiles/wallChess__.dir/Rook.cpp.o"
+"CMakeFiles/wallChess__.dir/Rook.cpp.o" \
+"CMakeFiles/wallChess__.dir/ConsoleClient.cpp.o" \
+"CMakeFiles/wallChess__.dir/Client.cpp.o" \
+"CMakeFiles/wallChess__.dir/Visualizer.cpp.o"
 
 # External object files for target wallChess__
 wallChess___EXTERNAL_OBJECTS =
@@ -153,9 +195,12 @@ wallChess__: CMakeFiles/wallChess__.dir/ChessBoard.cpp.o
 wallChess__: CMakeFiles/wallChess__.dir/Square.cpp.o
 wallChess__: CMakeFiles/wallChess__.dir/King.cpp.o
 wallChess__: CMakeFiles/wallChess__.dir/Rook.cpp.o
+wallChess__: CMakeFiles/wallChess__.dir/ConsoleClient.cpp.o
+wallChess__: CMakeFiles/wallChess__.dir/Client.cpp.o
+wallChess__: CMakeFiles/wallChess__.dir/Visualizer.cpp.o
 wallChess__: CMakeFiles/wallChess__.dir/build.make
 wallChess__: CMakeFiles/wallChess__.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable wallChess__"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable wallChess__"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wallChess__.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

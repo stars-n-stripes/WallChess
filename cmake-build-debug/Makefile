@@ -177,6 +177,60 @@ ChessPiece.cpp.s:
 	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/ChessPiece.cpp.s
 .PHONY : ChessPiece.cpp.s
 
+Client.o: Client.cpp.o
+
+.PHONY : Client.o
+
+# target to build an object file
+Client.cpp.o:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/Client.cpp.o
+.PHONY : Client.cpp.o
+
+Client.i: Client.cpp.i
+
+.PHONY : Client.i
+
+# target to preprocess a source file
+Client.cpp.i:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/Client.cpp.i
+.PHONY : Client.cpp.i
+
+Client.s: Client.cpp.s
+
+.PHONY : Client.s
+
+# target to generate assembly for a file
+Client.cpp.s:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/Client.cpp.s
+.PHONY : Client.cpp.s
+
+ConsoleClient.o: ConsoleClient.cpp.o
+
+.PHONY : ConsoleClient.o
+
+# target to build an object file
+ConsoleClient.cpp.o:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/ConsoleClient.cpp.o
+.PHONY : ConsoleClient.cpp.o
+
+ConsoleClient.i: ConsoleClient.cpp.i
+
+.PHONY : ConsoleClient.i
+
+# target to preprocess a source file
+ConsoleClient.cpp.i:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/ConsoleClient.cpp.i
+.PHONY : ConsoleClient.cpp.i
+
+ConsoleClient.s: ConsoleClient.cpp.s
+
+.PHONY : ConsoleClient.s
+
+# target to generate assembly for a file
+ConsoleClient.cpp.s:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/ConsoleClient.cpp.s
+.PHONY : ConsoleClient.cpp.s
+
 King.o: King.cpp.o
 
 .PHONY : King.o
@@ -258,6 +312,33 @@ Square.cpp.s:
 	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/Square.cpp.s
 .PHONY : Square.cpp.s
 
+Visualizer.o: Visualizer.cpp.o
+
+.PHONY : Visualizer.o
+
+# target to build an object file
+Visualizer.cpp.o:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/Visualizer.cpp.o
+.PHONY : Visualizer.cpp.o
+
+Visualizer.i: Visualizer.cpp.i
+
+.PHONY : Visualizer.i
+
+# target to preprocess a source file
+Visualizer.cpp.i:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/Visualizer.cpp.i
+.PHONY : Visualizer.cpp.i
+
+Visualizer.s: Visualizer.cpp.s
+
+.PHONY : Visualizer.s
+
+# target to generate assembly for a file
+Visualizer.cpp.s:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/Visualizer.cpp.s
+.PHONY : Visualizer.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -300,6 +381,12 @@ help:
 	@echo "... ChessPiece.o"
 	@echo "... ChessPiece.i"
 	@echo "... ChessPiece.s"
+	@echo "... Client.o"
+	@echo "... Client.i"
+	@echo "... Client.s"
+	@echo "... ConsoleClient.o"
+	@echo "... ConsoleClient.i"
+	@echo "... ConsoleClient.s"
 	@echo "... King.o"
 	@echo "... King.i"
 	@echo "... King.s"
@@ -309,6 +396,9 @@ help:
 	@echo "... Square.o"
 	@echo "... Square.i"
 	@echo "... Square.s"
+	@echo "... Visualizer.o"
+	@echo "... Visualizer.i"
+	@echo "... Visualizer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

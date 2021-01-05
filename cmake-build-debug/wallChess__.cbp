@@ -94,6 +94,18 @@
 		<Unit filename="/mnt/c/repos/WallChess/ChessPiece.h">
 			<Option target="wallChess__"/>
 		</Unit>
+		<Unit filename="/mnt/c/repos/WallChess/Client.cpp">
+			<Option target="wallChess__"/>
+		</Unit>
+		<Unit filename="/mnt/c/repos/WallChess/Client.h">
+			<Option target="wallChess__"/>
+		</Unit>
+		<Unit filename="/mnt/c/repos/WallChess/ConsoleClient.cpp">
+			<Option target="wallChess__"/>
+		</Unit>
+		<Unit filename="/mnt/c/repos/WallChess/ConsoleClient.h">
+			<Option target="wallChess__"/>
+		</Unit>
 		<Unit filename="/mnt/c/repos/WallChess/King.cpp">
 			<Option target="wallChess__"/>
 		</Unit>
@@ -110,6 +122,12 @@
 			<Option target="wallChess__"/>
 		</Unit>
 		<Unit filename="/mnt/c/repos/WallChess/Square.h">
+			<Option target="wallChess__"/>
+		</Unit>
+		<Unit filename="/mnt/c/repos/WallChess/Visualizer.cpp">
+			<Option target="wallChess__"/>
+		</Unit>
+		<Unit filename="/mnt/c/repos/WallChess/Visualizer.h">
 			<Option target="wallChess__"/>
 		</Unit>
 		<Unit filename="/mnt/c/repos/WallChess/main.cpp">
