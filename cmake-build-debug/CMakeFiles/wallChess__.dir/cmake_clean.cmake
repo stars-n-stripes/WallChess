@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/wallChess__.dir/Client.cpp.o"
   "CMakeFiles/wallChess__.dir/ConsoleClient.cpp.o"
   "CMakeFiles/wallChess__.dir/King.cpp.o"
+  "CMakeFiles/wallChess__.dir/LichessClient.cpp.o"
   "CMakeFiles/wallChess__.dir/Rook.cpp.o"
   "CMakeFiles/wallChess__.dir/Square.cpp.o"
   "CMakeFiles/wallChess__.dir/Visualizer.cpp.o"

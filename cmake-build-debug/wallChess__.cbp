@@ -112,6 +112,12 @@
 		<Unit filename="/mnt/c/repos/WallChess/King.h">
 			<Option target="wallChess__"/>
 		</Unit>
+		<Unit filename="/mnt/c/repos/WallChess/LichessClient.cpp">
+			<Option target="wallChess__"/>
+		</Unit>
+		<Unit filename="/mnt/c/repos/WallChess/LichessClient.h">
+			<Option target="wallChess__"/>
+		</Unit>
 		<Unit filename="/mnt/c/repos/WallChess/Rook.cpp">
 			<Option target="wallChess__"/>
 		</Unit>

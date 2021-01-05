@@ -5,8 +5,8 @@
 #ifndef WALLCHESS_LICHESSCLIENT_H
 #define WALLCHESS_LICHESSCLIENT_H
 
-
-class LichessClient {
+#include "Client.h"
+class LichessClient : public Client {
     // Concrete implementation of a RemoteClient
 };
 

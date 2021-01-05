@@ -5,9 +5,11 @@
 #ifndef WALLCHESS___CONSOLECLIENT_H
 #define WALLCHESS___CONSOLECLIENT_H
 
+#include "Client.h"
+
 /// A client designed to interface with a console
 /// primarily to be used for testing
-class ConsoleClient {
+class ConsoleClient : public Client {
 
 };
 

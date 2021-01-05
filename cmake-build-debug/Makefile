@@ -258,6 +258,33 @@ King.cpp.s:
 	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/King.cpp.s
 .PHONY : King.cpp.s
 
+LichessClient.o: LichessClient.cpp.o
+
+.PHONY : LichessClient.o
+
+# target to build an object file
+LichessClient.cpp.o:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/LichessClient.cpp.o
+.PHONY : LichessClient.cpp.o
+
+LichessClient.i: LichessClient.cpp.i
+
+.PHONY : LichessClient.i
+
+# target to preprocess a source file
+LichessClient.cpp.i:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/LichessClient.cpp.i
+.PHONY : LichessClient.cpp.i
+
+LichessClient.s: LichessClient.cpp.s
+
+.PHONY : LichessClient.s
+
+# target to generate assembly for a file
+LichessClient.cpp.s:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/LichessClient.cpp.s
+.PHONY : LichessClient.cpp.s
+
 Rook.o: Rook.cpp.o
 
 .PHONY : Rook.o
@@ -390,6 +417,9 @@ help:
 	@echo "... King.o"
 	@echo "... King.i"
 	@echo "... King.s"
+	@echo "... LichessClient.o"
+	@echo "... LichessClient.i"
+	@echo "... LichessClient.s"
 	@echo "... Rook.o"
 	@echo "... Rook.i"
 	@echo "... Rook.s"

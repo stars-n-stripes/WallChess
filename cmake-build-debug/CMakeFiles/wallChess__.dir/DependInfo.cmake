@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/repos/WallChess/Client.cpp" "/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles/wallChess__.dir/Client.cpp.o"
   "/mnt/c/repos/WallChess/ConsoleClient.cpp" "/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles/wallChess__.dir/ConsoleClient.cpp.o"
   "/mnt/c/repos/WallChess/King.cpp" "/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles/wallChess__.dir/King.cpp.o"
+  "/mnt/c/repos/WallChess/LichessClient.cpp" "/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles/wallChess__.dir/LichessClient.cpp.o"
   "/mnt/c/repos/WallChess/Rook.cpp" "/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles/wallChess__.dir/Rook.cpp.o"
   "/mnt/c/repos/WallChess/Square.cpp" "/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles/wallChess__.dir/Square.cpp.o"
   "/mnt/c/repos/WallChess/Visualizer.cpp" "/mnt/c/repos/WallChess/cmake-build-debug/CMakeFiles/wallChess__.dir/Visualizer.cpp.o"

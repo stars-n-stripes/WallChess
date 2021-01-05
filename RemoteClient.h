@@ -5,8 +5,9 @@
 #ifndef WALLCHESS_REMOTECLIENT_H
 #define WALLCHESS_REMOTECLIENT_H
 
+#include "Client.h"
 
-class RemoteClient {
+class RemoteClient : public Client{
     // Abstract class with interfaces for making/receiving moves from a remote source.
 
 };
