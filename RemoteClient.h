@@ -6,11 +6,12 @@
 #define WALLCHESS_REMOTECLIENT_H
 
 #include "Client.h"
+namespace Chess {
+    class RemoteClient : public Client {
+        // Abstract class with interfaces for making/receiving moves from a remote source.
+        // Namely, a remote version of this same code.
 
-class RemoteClient : public Client{
-    // Abstract class with interfaces for making/receiving moves from a remote source.
-
-};
-
+    };
+}
 
 #endif //WALLCHESS_REMOTECLIENT_H
