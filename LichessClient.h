@@ -6,9 +6,13 @@
 #define WALLCHESS_LICHESSCLIENT_H
 
 #include "Client.h"
-class LichessClient : public Client {
-    // Concrete implementation of a RemoteClient
-};
+namespace Chess {
+    /// Concrete implementation of a Client that interfaces with the Lichess API
+    /// Documentation for the API is available at https://lichess.org/api
+    class LichessClient : public Client {
+
+    };
+}
 
 
 #endif //WALLCHESS_LICHESSCLIENT_H
