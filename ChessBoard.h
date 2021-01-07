@@ -21,8 +21,7 @@ namespace Chess {
         static CHESSCOLOR CheckCheck(ChessPiece* moving_piece, std::shared_ptr<Square> tgt_square);
 
         // Iterator that provides a list of square-ptrs between two given squares, either on a diagonal, row, or column.
-        static std::vector<std::shared_ptr<Square>>
-        SquareRange(const std::shared_ptr<Square> &a, std::shared_ptr<Square> b);
+        static std::vector<std::shared_ptr<Square>> SquareRange(const std::shared_ptr<Square> &a, std::shared_ptr<Square> b);
 
         // Get a particular square
         static std::shared_ptr<Square> GetSquare(int x, int y);

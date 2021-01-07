@@ -10,7 +10,7 @@
 namespace Chess {
 
     enum class CLIENTTYPE {SYNCHRONOUS, ASYNCHRONOUS};
-    enum class VARIANT {STANDARD, CHESS960, };
+    enum class VARIANT {STANDARD, CHESS960};
 
 /// Abstract class for a client-to-board interface
 /// All clients (console, remote, local, etc) need to implement the functions declared here.
