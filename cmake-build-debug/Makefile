@@ -231,6 +231,33 @@ ConsoleClient.cpp.s:
 	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/ConsoleClient.cpp.s
 .PHONY : ConsoleClient.cpp.s
 
+ConsoleVisualizer.o: ConsoleVisualizer.cpp.o
+
+.PHONY : ConsoleVisualizer.o
+
+# target to build an object file
+ConsoleVisualizer.cpp.o:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/ConsoleVisualizer.cpp.o
+.PHONY : ConsoleVisualizer.cpp.o
+
+ConsoleVisualizer.i: ConsoleVisualizer.cpp.i
+
+.PHONY : ConsoleVisualizer.i
+
+# target to preprocess a source file
+ConsoleVisualizer.cpp.i:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/ConsoleVisualizer.cpp.i
+.PHONY : ConsoleVisualizer.cpp.i
+
+ConsoleVisualizer.s: ConsoleVisualizer.cpp.s
+
+.PHONY : ConsoleVisualizer.s
+
+# target to generate assembly for a file
+ConsoleVisualizer.cpp.s:
+	$(MAKE) -f CMakeFiles/wallChess__.dir/build.make CMakeFiles/wallChess__.dir/ConsoleVisualizer.cpp.s
+.PHONY : ConsoleVisualizer.cpp.s
+
 King.o: King.cpp.o
 
 .PHONY : King.o
@@ -414,6 +441,9 @@ help:
 	@echo "... ConsoleClient.o"
 	@echo "... ConsoleClient.i"
 	@echo "... ConsoleClient.s"
+	@echo "... ConsoleVisualizer.o"
+	@echo "... ConsoleVisualizer.i"
+	@echo "... ConsoleVisualizer.s"
 	@echo "... King.o"
 	@echo "... King.i"
 	@echo "... King.s"

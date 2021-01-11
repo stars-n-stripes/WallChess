@@ -106,6 +106,12 @@
 		<Unit filename="/mnt/c/repos/WallChess/ConsoleClient.h">
 			<Option target="wallChess__"/>
 		</Unit>
+		<Unit filename="/mnt/c/repos/WallChess/ConsoleVisualizer.cpp">
+			<Option target="wallChess__"/>
+		</Unit>
+		<Unit filename="/mnt/c/repos/WallChess/ConsoleVisualizer.h">
+			<Option target="wallChess__"/>
+		</Unit>
 		<Unit filename="/mnt/c/repos/WallChess/King.cpp">
 			<Option target="wallChess__"/>
 		</Unit>
